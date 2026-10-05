@@ -6,3 +6,6 @@ We present a mathematical framework and a novel numerical solution architecture 
 The system is solved by a Jacobian-free Newton-Krylov (JFNK) method with an Eisenstat-Walker forcing term and Armijo backtracking. 
 Two preconditioners are developed and compared: a Field-Split preconditioner formed by inverting four physical field blocks exactly and an Additive Schwarz Preconditioned Inexact Newton (ASPIN) strategy that performs sub-domain Newton sweeps over six physics-motivated subdomains.
 Both preconditioners reduce the global Krylov cost compared to unpreconditioned and point Jacobi (diagonal) precodnitioner.
+
+### NEWS:
+We have submitted the paper to the Journal of Nuclear Engineering - the full code will be released after the paper review.
